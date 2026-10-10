@@ -1,0 +1,7 @@
+numpy
+scipy
+matplotlib
+mpmath
+pygridsynth>=2.0
+qiskit>=1.0
+pytest
