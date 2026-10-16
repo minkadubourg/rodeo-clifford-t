@@ -11,7 +11,7 @@ cycles and random times t_k the success probability is an energy filter
 Here U(t_k) = W^{n_k} is n_k repetitions of a (possibly compiled) Trotter step W,
 so P(E) is evaluated exactly from the eigendecomposition of W. This is
 equivalent to a noise-free statevector simulation of the circuit (verified
-against Qiskit Aer in tests/test_rodeo_circuit.py) and orders of magnitude faster.
+against a Qiskit statevector simulation in tests/test_rodeo.py) and orders of magnitude faster.
 """
 from __future__ import annotations
 
